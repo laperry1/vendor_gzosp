@@ -93,6 +93,22 @@ PRODUCT_PACKAGES += \
     LatinIME \
     BluetoothExt
 
+# ViPER4Android
+PRODUCT_COPY_FILES += \
+    vendor/gzosp/prebuilt/common/viper.zip:system/addon.d/viper.zip
+
+# Copy Magisk zip
+PRODUCT_COPY_FILES += \
+    vendor/gzosp/prebuilt/common/magisk.zip:system/addon.d/magisk.zip
+
+#LMT
+PRODUCT_COPY_FILES += \
+    vendor/gzosp/prebuilt/common/app/LMT_v2.8.apk:system/priv-app/LMT/LMT_v2.8.apk \
+ 	vendor/gzosp/prebuilt/common/app/libTouchServiceNative.so:system/lib64/libTouchServiceNative.so
+
+#ADAWAY
+PRODUCT_COPY_FILES += \
+    vendor/gzosp/prebuilt/common/app/AdAway.apk:system/priv-app/AdAway/AdAway.apk
 
 # Extra tools
 PRODUCT_PACKAGES += \
