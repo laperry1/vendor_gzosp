@@ -103,7 +103,7 @@ PRODUCT_COPY_FILES += \
 
 #LMT
 PRODUCT_COPY_FILES += \
-    vendor/gzosp/prebuilt/common/app/LMT_v2.8.apk:system/priv-app/LMT/LMT_v2.8.apk \
+    vendor/gzosp/prebuilt/common/app/LMT_v2.9.apk:system/priv-app/LMT/LMT_v2.9.apk \
  	vendor/gzosp/prebuilt/common/app/libTouchServiceNative.so:system/lib64/libTouchServiceNative.so
 
 #ADAWAY
